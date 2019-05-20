@@ -111,6 +111,8 @@ The plan is as follows:
 
 It worked. After like 20-30 minutes we got the flag. You can check out the source at [jail/bf.py](jail/bf.py). I used comments :))
 
+FLAG IS `RCTF{welc0me_t0_the_chaos_w0r1d}`
+
 Sorry for spamming you guys at RCTF. I hope you enjoyed this alternative solution.
 
 CALCALCALC
@@ -119,3 +121,5 @@ CALCALCALC
 I found a solution which I think was too easy for `calcalcalc`. Basically one could use `eval()` with `chr()` to escape this regex check `!/^[0-9a-z\[\]\(\)\+\-\*\/ \t]+$/i.test(str)`. The payload would run in python, and by using sleep and a binary search I was able to get the flag.
 
 Source code at [calc/main.py](calc/main.py)
+
+FLAG IS `RCTF{watch_Kemurikusa_to_c4lm_d0wn}`
